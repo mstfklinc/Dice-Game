@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA61593826F1E5AB00805D52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61593726F1E5AB00805D52 /* AppDelegate.m */; };
+		FA61593B26F1E5AB00805D52 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61593A26F1E5AB00805D52 /* SceneDelegate.m */; };
+		FA61593E26F1E5AB00805D52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61593D26F1E5AB00805D52 /* ViewController.m */; };
+		FA61594126F1E5AB00805D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61593F26F1E5AB00805D52 /* Main.storyboard */; };
+		FA61594426F1E5AB00805D52 /* Zar_oyunu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA61594226F1E5AB00805D52 /* Zar_oyunu.xcdatamodeld */; };
+		FA61594626F1E5AE00805D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61594526F1E5AE00805D52 /* Assets.xcassets */; };
+		FA61594926F1E5AE00805D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61594726F1E5AE00805D52 /* LaunchScreen.storyboard */; };
+		FA61594C26F1E5AE00805D52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61594B26F1E5AE00805D52 /* main.m */; };
+		FA61595626F1E5AF00805D52 /* Zar_oyunuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61595526F1E5AF00805D52 /* Zar_oyunuTests.m */; };
+		FA61596126F1E5AF00805D52 /* Zar_oyunuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61596026F1E5AF00805D52 /* Zar_oyunuUITests.m */; };
+		FA61596F26F1E65700805D52 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA61596E26F1E65700805D52 /* American Captain.otf */; };
+		FA61597026F1E65700805D52 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA61596E26F1E65700805D52 /* American Captain.otf */; };
+		FA61597126F1E65700805D52 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA61596E26F1E65700805D52 /* American Captain.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA61595226F1E5AF00805D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61592B26F1E5AB00805D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61593226F1E5AB00805D52;
+			remoteInfo = "Zar oyunu";
+		};
+		FA61595D26F1E5AF00805D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61592B26F1E5AB00805D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61593226F1E5AB00805D52;
+			remoteInfo = "Zar oyunu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA61593326F1E5AB00805D52 /* Zar oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zar oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61593626F1E5AB00805D52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA61593726F1E5AB00805D52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA61593926F1E5AB00805D52 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FA61593A26F1E5AB00805D52 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FA61593C26F1E5AB00805D52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA61593D26F1E5AB00805D52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA61594026F1E5AB00805D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA61594326F1E5AB00805D52 /* Zar_oyunu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zar_oyunu.xcdatamodel; sourceTree = "<group>"; };
+		FA61594526F1E5AE00805D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA61594826F1E5AE00805D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA61594A26F1E5AE00805D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61594B26F1E5AE00805D52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA61595126F1E5AF00805D52 /* Zar oyunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zar oyunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61595526F1E5AF00805D52 /* Zar_oyunuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zar_oyunuTests.m; sourceTree = "<group>"; };
+		FA61595726F1E5AF00805D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61595C26F1E5AF00805D52 /* Zar oyunuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zar oyunuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61596026F1E5AF00805D52 /* Zar_oyunuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zar_oyunuUITests.m; sourceTree = "<group>"; };
+		FA61596226F1E5AF00805D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61596E26F1E65700805D52 /* American Captain.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "American Captain.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA61593026F1E5AB00805D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61594E26F1E5AF00805D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61595926F1E5AF00805D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA61592A26F1E5AB00805D52 = {
+			isa = PBXGroup;
+			children = (
+				FA61593526F1E5AB00805D52 /* Zar oyunu */,
+				FA61595426F1E5AF00805D52 /* Zar oyunuTests */,
+				FA61595F26F1E5AF00805D52 /* Zar oyunuUITests */,
+				FA61593426F1E5AB00805D52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA61593426F1E5AB00805D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA61593326F1E5AB00805D52 /* Zar oyunu.app */,
+				FA61595126F1E5AF00805D52 /* Zar oyunuTests.xctest */,
+				FA61595C26F1E5AF00805D52 /* Zar oyunuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA61593526F1E5AB00805D52 /* Zar oyunu */ = {
+			isa = PBXGroup;
+			children = (
+				FA61593626F1E5AB00805D52 /* AppDelegate.h */,
+				FA61593726F1E5AB00805D52 /* AppDelegate.m */,
+				FA61593926F1E5AB00805D52 /* SceneDelegate.h */,
+				FA61593A26F1E5AB00805D52 /* SceneDelegate.m */,
+				FA61593C26F1E5AB00805D52 /* ViewController.h */,
+				FA61593D26F1E5AB00805D52 /* ViewController.m */,
+				FA61593F26F1E5AB00805D52 /* Main.storyboard */,
+				FA61594526F1E5AE00805D52 /* Assets.xcassets */,
+				FA61594726F1E5AE00805D52 /* LaunchScreen.storyboard */,
+				FA61594A26F1E5AE00805D52 /* Info.plist */,
+				FA61594B26F1E5AE00805D52 /* main.m */,
+				FA61596E26F1E65700805D52 /* American Captain.otf */,
+				FA61594226F1E5AB00805D52 /* Zar_oyunu.xcdatamodeld */,
+			);
+			path = "Zar oyunu";
+			sourceTree = "<group>";
+		};
+		FA61595426F1E5AF00805D52 /* Zar oyunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61595526F1E5AF00805D52 /* Zar_oyunuTests.m */,
+				FA61595726F1E5AF00805D52 /* Info.plist */,
+			);
+			path = "Zar oyunuTests";
+			sourceTree = "<group>";
+		};
+		FA61595F26F1E5AF00805D52 /* Zar oyunuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61596026F1E5AF00805D52 /* Zar_oyunuUITests.m */,
+				FA61596226F1E5AF00805D52 /* Info.plist */,
+			);
+			path = "Zar oyunuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA61593226F1E5AB00805D52 /* Zar oyunu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61596526F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunu" */;
+			buildPhases = (
+				FA61592F26F1E5AB00805D52 /* Sources */,
+				FA61593026F1E5AB00805D52 /* Frameworks */,
+				FA61593126F1E5AB00805D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zar oyunu";
+			productName = "Zar oyunu";
+			productReference = FA61593326F1E5AB00805D52 /* Zar oyunu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA61595026F1E5AF00805D52 /* Zar oyunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61596826F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunuTests" */;
+			buildPhases = (
+				FA61594D26F1E5AF00805D52 /* Sources */,
+				FA61594E26F1E5AF00805D52 /* Frameworks */,
+				FA61594F26F1E5AF00805D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61595326F1E5AF00805D52 /* PBXTargetDependency */,
+			);
+			name = "Zar oyunuTests";
+			productName = "Zar oyunuTests";
+			productReference = FA61595126F1E5AF00805D52 /* Zar oyunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA61595B26F1E5AF00805D52 /* Zar oyunuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61596B26F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunuUITests" */;
+			buildPhases = (
+				FA61595826F1E5AF00805D52 /* Sources */,
+				FA61595926F1E5AF00805D52 /* Frameworks */,
+				FA61595A26F1E5AF00805D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61595E26F1E5AF00805D52 /* PBXTargetDependency */,
+			);
+			name = "Zar oyunuUITests";
+			productName = "Zar oyunuUITests";
+			productReference = FA61595C26F1E5AF00805D52 /* Zar oyunuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA61592B26F1E5AB00805D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA61593226F1E5AB00805D52 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FA61595026F1E5AF00805D52 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA61593226F1E5AB00805D52;
+					};
+					FA61595B26F1E5AF00805D52 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA61593226F1E5AB00805D52;
+					};
+				};
+			};
+			buildConfigurationList = FA61592E26F1E5AB00805D52 /* Build configuration list for PBXProject "Zar oyunu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA61592A26F1E5AB00805D52;
+			productRefGroup = FA61593426F1E5AB00805D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA61593226F1E5AB00805D52 /* Zar oyunu */,
+				FA61595026F1E5AF00805D52 /* Zar oyunuTests */,
+				FA61595B26F1E5AF00805D52 /* Zar oyunuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA61593126F1E5AB00805D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61594926F1E5AE00805D52 /* LaunchScreen.storyboard in Resources */,
+				FA61594626F1E5AE00805D52 /* Assets.xcassets in Resources */,
+				FA61594126F1E5AB00805D52 /* Main.storyboard in Resources */,
+				FA61596F26F1E65700805D52 /* American Captain.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61594F26F1E5AF00805D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61597026F1E65700805D52 /* American Captain.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61595A26F1E5AF00805D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61597126F1E65700805D52 /* American Captain.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA61592F26F1E5AB00805D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61594C26F1E5AE00805D52 /* main.m in Sources */,
+				FA61593E26F1E5AB00805D52 /* ViewController.m in Sources */,
+				FA61593826F1E5AB00805D52 /* AppDelegate.m in Sources */,
+				FA61594426F1E5AB00805D52 /* Zar_oyunu.xcdatamodeld in Sources */,
+				FA61593B26F1E5AB00805D52 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61594D26F1E5AF00805D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61595626F1E5AF00805D52 /* Zar_oyunuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61595826F1E5AF00805D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61596126F1E5AF00805D52 /* Zar_oyunuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA61595326F1E5AF00805D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61593226F1E5AB00805D52 /* Zar oyunu */;
+			targetProxy = FA61595226F1E5AF00805D52 /* PBXContainerItemProxy */;
+		};
+		FA61595E26F1E5AF00805D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61593226F1E5AB00805D52 /* Zar oyunu */;
+			targetProxy = FA61595D26F1E5AF00805D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA61593F26F1E5AB00805D52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA61594026F1E5AB00805D52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA61594726F1E5AE00805D52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA61594826F1E5AE00805D52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA61596326F1E5AF00805D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA61596426F1E5AF00805D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA61596626F1E5AF00805D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA61596726F1E5AF00805D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA61596926F1E5AF00805D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zar oyunu.app/Zar oyunu";
+			};
+			name = Debug;
+		};
+		FA61596A26F1E5AF00805D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zar oyunu.app/Zar oyunu";
+			};
+			name = Release;
+		};
+		FA61596C26F1E5AF00805D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zar oyunu";
+			};
+			name = Debug;
+		};
+		FA61596D26F1E5AF00805D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zar oyunuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.Zar-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zar oyunu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA61592E26F1E5AB00805D52 /* Build configuration list for PBXProject "Zar oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61596326F1E5AF00805D52 /* Debug */,
+				FA61596426F1E5AF00805D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61596526F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61596626F1E5AF00805D52 /* Debug */,
+				FA61596726F1E5AF00805D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61596826F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61596926F1E5AF00805D52 /* Debug */,
+				FA61596A26F1E5AF00805D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61596B26F1E5AF00805D52 /* Build configuration list for PBXNativeTarget "Zar oyunuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61596C26F1E5AF00805D52 /* Debug */,
+				FA61596D26F1E5AF00805D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA61594226F1E5AB00805D52 /* Zar_oyunu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA61594326F1E5AB00805D52 /* Zar_oyunu.xcdatamodel */,
+			);
+			currentVersion = FA61594326F1E5AB00805D52 /* Zar_oyunu.xcdatamodel */;
+			path = Zar_oyunu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA61592B26F1E5AB00805D52 /* Project object */;
+}
